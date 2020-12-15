@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 233, 162);
+    font-family: sans-serif;
+}
+
+#FirstTitle{
+    color: #148014;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+span{
+    color: #0e0d0d;
+}
+
+#SecondTitle{
+    color: #234da7;
+    font-family: serif;
+    font-size: 4em;
+    margin-top: -0.4em;
+    font-weight: lighter;
+}
+
+div{
+    height: 7em;
+    width: 30em;
+    margin-top: -2em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2.9em;
+}
+
+p{
+    font-size: 1.090em;
+}
+
+a{
+    
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: bold;
+}
