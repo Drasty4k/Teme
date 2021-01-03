@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5efd7;
+}
+
+#menu{
+    position: absolute;
+    left: 95%;
+    top: 3.9em;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.center{
+    height: 50em;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#first{
+     font-size: 5em;
+     color:#3860ff;
+     font-family: 'Rammetto One', cursive;
+     padding-bottom: 2em;
+}
+
+#play{
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #3860ff;
+}
+
+#go{
+    height: 150px;
+    height: 150px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 46.6%;
+}
+
+#go:hover{
+    animation: rotate 1s backwards;
+    animation-fill-mode:forwards;
+}
+
+@keyframes rotate{
+    100%{ transform: rotate(-20deg)}
+}
+
+#go div{
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border:1px solid #000;
+    border-radius: 50%;
+}
+
+#go div p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 130px;
+    color: #000;
+}
+
+.bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 3em;
+}
+
+#one{
+    text-decoration: none;
+    color: #000;
+    margin-left: 3em;
+    font-weight: 500;
+}
+
+#two{
+    text-decoration: none;
+    color: #000;
+    margin-left: 3em;
+    font-weight: 500;
+}
+
+.bottom span{
+    margin-right: 1.5em;
+}
+
+#three{
+    text-decoration: none;
+    color: #000;
+    margin-left: 85em;
+    font-weight: 500;
+}
+
+.shape-1{
+    width: 400px;
+    height: 400px;
+    background-color: #00aaf0;
+    border-radius: 50%;
+    position: absolute;
+    top: -17em;
+    left: 40em;
+}
+
+.shape-2{
+    width: 300px;
+    height: 150px; 
+    background-color: transparent;
+    border-top-left-radius: 150px; 
+    border-top-right-radius: 150px;
+    border: 40px solid #ffd22c;
+    border-bottom: 0;
+    position: absolute;
+    top: 0.5em;
+    left: 80em;
+    transform: rotate(20deg);
+}
+
+.shape-3{
+    width: 350px;
+    height: 175px; 
+    background-color:  #ff4c38;
+    border-top-left-radius: 175px; 
+    border-top-right-radius: 175px;
+    border: 40px solid #ff4c38;
+    border-bottom: 0;
+    position: absolute;
+    top: 5em;
+    left: -1.5em;
+    transform: rotate(130deg);
+}
+
+.shape-4{
+    width: 200px;
+    height: 200px;
+    background-color: #ffd229;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 6em;
+}
+
+.shape-5{
+    width: 400px;
+    height: 200px; 
+    background-color:#00aaf0;
+    border-top-left-radius: 200px; 
+    border-top-right-radius: 200px;
+    border: 40px solid #00aaf0;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 18em;
+    left: -4.5em;
+    transform: rotate(30deg);
+    z-index: 1;
+}
+
+.shape-6{
+    width: 200px;
+    height: 200px;
+    background-color: #3860ff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 21em;
+    left: 8em;
+    z-index: 0;
+}
+
+.shape-7{
+    width: 250px;
+    height: 125px; 
+    background-color:  #ff4c38;
+    border-top-left-radius: 175px; 
+    border-top-right-radius: 175px;
+    border: 40px solid #ff4c38;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 0.3em;
+    left: 78em;
+    transform: rotate(200deg);
+}
+
+.shape-8{
+    width: 150px;
+    height: 75px; 
+    background-color: transparent;
+    border-top-left-radius: 75px; 
+    border-top-right-radius: 75px;
+    border: 21px solid #00aaf0;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 9.5em;
+    right: 15em;
+    transform: rotate(30deg);
+}
+
+.shape-9{
+    width: 150px;
+    height: 150px;
+    background-color:#ffd229;
+    border-radius: 50%;
+    position: absolute;
+    right: -1em;
+    bottom: 9em;
+    z-index: 1;
+}
+
+.shape-10{
+    width: 250px;
+    height: 125px; 
+    background-color:  #3860ff;
+    border-top-left-radius: 125px; 
+    border-top-right-radius: 125px;
+    border: 40px solid #3860ff;
+    border-bottom: 0;
+    position: absolute;
+    bottom: 14em;
+    right: -6em;
+    transform: rotate(80deg);
+}

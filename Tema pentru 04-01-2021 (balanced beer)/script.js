@@ -9,7 +9,7 @@ anime({
       easing: 'easeInOutSine',
       translateX: function() {
         return anime.random(-70, 70);
-      },
+      }
     })
 
     anime({
@@ -24,7 +24,7 @@ anime({
         easing: 'easeInOutSine',
         translateX: function() {
           return anime.random(-70, 70);
-        },
+        }
       })
 
       anime({
@@ -39,6 +39,6 @@ anime({
           easing: 'easeInOutSine',
           translateX: function() {
             return anime.random(-70, 70);
-          },
+          }
         })
 
