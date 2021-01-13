@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5bcc4c;
+}
+
+#circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #000;
+
+
+}
+
+.move{
+    animation: move 4s linear forwards;
+}
+
+@keyframes move{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(1807px, 860px);
+    }
+}
