@@ -7,7 +7,7 @@ document.querySelector("#button")
             document.querySelector("#result").innerHTML += "Too small"
         }
         if (text == nr) {
-            document.querySelector("#result").innerHTML += "You guessed it"
+            document.querySelector("#result").innerHTML += "You guessed it!"
             
         }
         if (text > nr) {
