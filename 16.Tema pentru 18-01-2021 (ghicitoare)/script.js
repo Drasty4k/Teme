@@ -1,16 +1,20 @@
-document.querySelector("#button")
-    .addEventListener("click", function () {
-        nr = 68
+let button = document.querySelector("#button")
+let result =  document.querySelector("#result")
+
+let nr = [Math.floor(Math.random() * 100)]
+
+button.addEventListener("click", function () {
+       
         text = document.querySelector("#text").value
 
         if (text < nr) {
-            document.querySelector("#result").innerHTML += "Too small"
+           result.innerHTML = "Too small"
         }
         if (text == nr) {
-            document.querySelector("#result").innerHTML += "You guessed it!"
+            result.innerHTML = "You guessed it!"
             
         }
         if (text > nr) {
-            document.querySelector("#result").innerHTML += "Too big"
+            result.innerHTML = "Too big"
         }    
     })
